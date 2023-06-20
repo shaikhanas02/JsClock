@@ -1,0 +1,73 @@
+.clock{
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+img{
+    width: 50rem ;
+    height: 40rem ;
+    align-items: center;
+}
+/* .clock{
+     width: 75vw;  
+    height: 30vw;
+    margint-top: 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 20px solid white;
+    border-radius: 50%; 
+     margin: 50px auto;
+    position: relative;
+     padding: 2rem;
+    background-image: url(./background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateX(50%) translateY(50%); 
+     box-shadow:
+      0 0 0 4px rgba(0,0,0,0.1),
+      inset 0 0 0 3px #EFEFEF ,
+       inset 0 0 10px black,
+      0 0 10px rgba(0,0,0,0.2);  
+ } */
+
+/* .clock-face{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px); account for the height of the clock hands
+} */
+.hour .min .sec{
+    position: absolute;
+
+}
+.hour{
+    position: absolute;
+    width: 9px;
+    height: 8rem;
+    background-color: black;
+    top: 30%;
+    left: 50%;
+    transform-origin: bottom;
+    
+}
+.min{
+    position: absolute;
+    width: 8px;
+    height: 10rem;
+    background-color: black;
+    top: 25%;
+    left: 50%;
+    transform-origin: bottom;
+
+}
+.sec{
+    position: absolute;
+    width: 6px;
+    height: 12rem;
+    background-color: black;
+    top: 20.5%;
+    left: 50%;
+    transform-origin: bottom;
+}
